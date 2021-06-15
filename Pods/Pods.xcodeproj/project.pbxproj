@@ -1,0 +1,755 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		013C8B7604C9C222AAA7524F2098C731 /* Pods-CryptoWallet-CryptoWalletUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 928CE0327281218A3FCF1CDD9BCDE4D3 /* Pods-CryptoWallet-CryptoWalletUITests-dummy.m */; };
+		158AF725E0043A7F617CFEF178772380 /* Pods-CryptoWallet-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2630222F928908794917A43888628629 /* Pods-CryptoWallet-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		432421D71A46DDF413BA8737AD8AF290 /* Pods-CryptoWalletTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D7C1D136D5937F43D3D6CE3F6AF88593 /* Pods-CryptoWalletTests-dummy.m */; };
+		4BEA849E8FEB687FD7CD38B9A6FA43D0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		573725AF29CBD97845D1D60567B84307 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		8816908F505F78B3423B61D6116AEF1B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		906E689FA51A40CF106AD1F206CD6454 /* Pods-CryptoWallet-CryptoWalletUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = AE5E80C29BFE8D9D3FBE1B9F1A3AE1BF /* Pods-CryptoWallet-CryptoWalletUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AD56D4622779E5EEAC0D5848B3D08DCC /* Pods-CryptoWalletTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E09926FC458C94F0E061DD3BED3379CD /* Pods-CryptoWalletTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CE0EF2CEDF44FB4C43956A23B18C0FBA /* Pods-CryptoWallet-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B9B8CB515A65429B5D508255875A53CB /* Pods-CryptoWallet-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4B1FEBF8EEC2CBE79DECEEE4785CEDBC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E3CDB365B7FD143E4B9A25B5214FCEDF;
+			remoteInfo = "Pods-CryptoWallet";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		14D59B61F0E1DF9F9B889D874C327D2B /* Pods-CryptoWallet-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-CryptoWallet-acknowledgements.markdown"; sourceTree = "<group>"; };
+		1DC0797FB5467B95B9BFBA8C8F6474C8 /* Pods-CryptoWallet-CryptoWalletUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CryptoWallet-CryptoWalletUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		2630222F928908794917A43888628629 /* Pods-CryptoWallet-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-CryptoWallet-umbrella.h"; sourceTree = "<group>"; };
+		37C0697A83177959FF938214C6B1F7FA /* Pods-CryptoWallet.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CryptoWallet.debug.xcconfig"; sourceTree = "<group>"; };
+		39ECFD6EE576E39A8C3ABB46632E7664 /* Pods-CryptoWalletTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CryptoWalletTests.release.xcconfig"; sourceTree = "<group>"; };
+		4E55BAE2EAD96AF7415188430E7B37DA /* Pods_CryptoWallet.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_CryptoWallet.framework; path = "Pods-CryptoWallet.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5BBF52C01271BF55E6ADB79F87DE204F /* Pods_CryptoWalletTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_CryptoWalletTests.framework; path = "Pods-CryptoWalletTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		843C404486E1FB3A318859E904014F72 /* Pods-CryptoWallet.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CryptoWallet.release.xcconfig"; sourceTree = "<group>"; };
+		8B61D350E6091843276E896EFCF28825 /* Pods_CryptoWallet_CryptoWalletUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_CryptoWallet_CryptoWalletUITests.framework; path = "Pods-CryptoWallet-CryptoWalletUITests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8E94191E76B9D2E2DAB8CA65DBE5B2DD /* Pods-CryptoWalletTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-CryptoWalletTests.modulemap"; sourceTree = "<group>"; };
+		928CE0327281218A3FCF1CDD9BCDE4D3 /* Pods-CryptoWallet-CryptoWalletUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-CryptoWallet-CryptoWalletUITests-dummy.m"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A5BB83E2DE9366EDA487CE0262FDA2D9 /* Pods-CryptoWallet-CryptoWalletUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-CryptoWallet-CryptoWalletUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		AA1E524DF2BB267CE1793DC9FFBA0DBC /* Pods-CryptoWalletTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CryptoWalletTests.debug.xcconfig"; sourceTree = "<group>"; };
+		AD22BC6A04EC15B4DE0E3FEC8A5818BA /* Pods-CryptoWalletTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-CryptoWalletTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		AE5E80C29BFE8D9D3FBE1B9F1A3AE1BF /* Pods-CryptoWallet-CryptoWalletUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-CryptoWallet-CryptoWalletUITests-umbrella.h"; sourceTree = "<group>"; };
+		B1B8AB3A2BC4AE8E0AFB04214992AF70 /* Pods-CryptoWallet-CryptoWalletUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-CryptoWallet-CryptoWalletUITests.modulemap"; sourceTree = "<group>"; };
+		B9B8CB515A65429B5D508255875A53CB /* Pods-CryptoWallet-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-CryptoWallet-dummy.m"; sourceTree = "<group>"; };
+		BED9D75C9FF16A6DECF3192D50849C37 /* Pods-CryptoWallet.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-CryptoWallet.modulemap"; sourceTree = "<group>"; };
+		D3D779A6E8B68D519ACD64F6B60540D3 /* Pods-CryptoWallet-CryptoWalletUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CryptoWallet-CryptoWalletUITests.release.xcconfig"; sourceTree = "<group>"; };
+		D7C1D136D5937F43D3D6CE3F6AF88593 /* Pods-CryptoWalletTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-CryptoWalletTests-dummy.m"; sourceTree = "<group>"; };
+		D88866FE0ECA7100E61E60C4929431CE /* Pods-CryptoWallet-CryptoWalletUITests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CryptoWallet-CryptoWalletUITests-Info.plist"; sourceTree = "<group>"; };
+		D8F804AED115035FF9475B64A4B3C808 /* Pods-CryptoWallet-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CryptoWallet-acknowledgements.plist"; sourceTree = "<group>"; };
+		DD99197EA89EE7F421B12AE329E2C276 /* Pods-CryptoWalletTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CryptoWalletTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		E09926FC458C94F0E061DD3BED3379CD /* Pods-CryptoWalletTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-CryptoWalletTests-umbrella.h"; sourceTree = "<group>"; };
+		F8A05C7003E325313BB16B286D80BFF1 /* Pods-CryptoWallet-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CryptoWallet-Info.plist"; sourceTree = "<group>"; };
+		FACE2D5E59F47878FBFF4D495B9340C4 /* Pods-CryptoWalletTests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CryptoWalletTests-Info.plist"; sourceTree = "<group>"; };
+		FB00110E9916E38201FFEC27F09294E6 /* Pods-CryptoWallet-CryptoWalletUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CryptoWallet-CryptoWalletUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A1377C1FEF80A4ECE743392052D6E4D9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				573725AF29CBD97845D1D60567B84307 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BCB85D68B54ED2D702A4790FD18C2A80 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4BEA849E8FEB687FD7CD38B9A6FA43D0 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E83AA4F5A6D33AA2249BD5EA228872B4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8816908F505F78B3423B61D6116AEF1B /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		058451D7D99EABAE24EE075F8E1D0C43 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4E55BAE2EAD96AF7415188430E7B37DA /* Pods_CryptoWallet.framework */,
+				8B61D350E6091843276E896EFCF28825 /* Pods_CryptoWallet_CryptoWalletUITests.framework */,
+				5BBF52C01271BF55E6ADB79F87DE204F /* Pods_CryptoWalletTests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5499F9B6A1B19C54C2D9269DDD3CCBD9 /* Pods-CryptoWalletTests */ = {
+			isa = PBXGroup;
+			children = (
+				8E94191E76B9D2E2DAB8CA65DBE5B2DD /* Pods-CryptoWalletTests.modulemap */,
+				AD22BC6A04EC15B4DE0E3FEC8A5818BA /* Pods-CryptoWalletTests-acknowledgements.markdown */,
+				DD99197EA89EE7F421B12AE329E2C276 /* Pods-CryptoWalletTests-acknowledgements.plist */,
+				D7C1D136D5937F43D3D6CE3F6AF88593 /* Pods-CryptoWalletTests-dummy.m */,
+				FACE2D5E59F47878FBFF4D495B9340C4 /* Pods-CryptoWalletTests-Info.plist */,
+				E09926FC458C94F0E061DD3BED3379CD /* Pods-CryptoWalletTests-umbrella.h */,
+				AA1E524DF2BB267CE1793DC9FFBA0DBC /* Pods-CryptoWalletTests.debug.xcconfig */,
+				39ECFD6EE576E39A8C3ABB46632E7664 /* Pods-CryptoWalletTests.release.xcconfig */,
+			);
+			name = "Pods-CryptoWalletTests";
+			path = "Target Support Files/Pods-CryptoWalletTests";
+			sourceTree = "<group>";
+		};
+		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		690E56E586635E11F1F179F769EECF9C /* Pods-CryptoWallet-CryptoWalletUITests */ = {
+			isa = PBXGroup;
+			children = (
+				B1B8AB3A2BC4AE8E0AFB04214992AF70 /* Pods-CryptoWallet-CryptoWalletUITests.modulemap */,
+				A5BB83E2DE9366EDA487CE0262FDA2D9 /* Pods-CryptoWallet-CryptoWalletUITests-acknowledgements.markdown */,
+				FB00110E9916E38201FFEC27F09294E6 /* Pods-CryptoWallet-CryptoWalletUITests-acknowledgements.plist */,
+				928CE0327281218A3FCF1CDD9BCDE4D3 /* Pods-CryptoWallet-CryptoWalletUITests-dummy.m */,
+				D88866FE0ECA7100E61E60C4929431CE /* Pods-CryptoWallet-CryptoWalletUITests-Info.plist */,
+				AE5E80C29BFE8D9D3FBE1B9F1A3AE1BF /* Pods-CryptoWallet-CryptoWalletUITests-umbrella.h */,
+				1DC0797FB5467B95B9BFBA8C8F6474C8 /* Pods-CryptoWallet-CryptoWalletUITests.debug.xcconfig */,
+				D3D779A6E8B68D519ACD64F6B60540D3 /* Pods-CryptoWallet-CryptoWalletUITests.release.xcconfig */,
+			);
+			name = "Pods-CryptoWallet-CryptoWalletUITests";
+			path = "Target Support Files/Pods-CryptoWallet-CryptoWalletUITests";
+			sourceTree = "<group>";
+		};
+		A4A54F2673C4CA760BF2F447E543FADF /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				A660B8E84AF9726FCF8147FE9C7F2292 /* Pods-CryptoWallet */,
+				690E56E586635E11F1F179F769EECF9C /* Pods-CryptoWallet-CryptoWalletUITests */,
+				5499F9B6A1B19C54C2D9269DDD3CCBD9 /* Pods-CryptoWalletTests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		A660B8E84AF9726FCF8147FE9C7F2292 /* Pods-CryptoWallet */ = {
+			isa = PBXGroup;
+			children = (
+				BED9D75C9FF16A6DECF3192D50849C37 /* Pods-CryptoWallet.modulemap */,
+				14D59B61F0E1DF9F9B889D874C327D2B /* Pods-CryptoWallet-acknowledgements.markdown */,
+				D8F804AED115035FF9475B64A4B3C808 /* Pods-CryptoWallet-acknowledgements.plist */,
+				B9B8CB515A65429B5D508255875A53CB /* Pods-CryptoWallet-dummy.m */,
+				F8A05C7003E325313BB16B286D80BFF1 /* Pods-CryptoWallet-Info.plist */,
+				2630222F928908794917A43888628629 /* Pods-CryptoWallet-umbrella.h */,
+				37C0697A83177959FF938214C6B1F7FA /* Pods-CryptoWallet.debug.xcconfig */,
+				843C404486E1FB3A318859E904014F72 /* Pods-CryptoWallet.release.xcconfig */,
+			);
+			name = "Pods-CryptoWallet";
+			path = "Target Support Files/Pods-CryptoWallet";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				058451D7D99EABAE24EE075F8E1D0C43 /* Products */,
+				A4A54F2673C4CA760BF2F447E543FADF /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				578452D2E740E91742655AC8F1636D1F /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		12F71AE25B20940FF08367675CAF4C9B /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				906E689FA51A40CF106AD1F206CD6454 /* Pods-CryptoWallet-CryptoWalletUITests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1A39B9D1DFEB09CE377678004FC12E56 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD56D4622779E5EEAC0D5848B3D08DCC /* Pods-CryptoWalletTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EAB5AD6A49DA452C8368FEABE0CE19FF /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				158AF725E0043A7F617CFEF178772380 /* Pods-CryptoWallet-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		63B1E76AB669EA236972893D1F5DF948 /* Pods-CryptoWalletTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 99B07DB9B2B6ACD10407DE9116D35BB3 /* Build configuration list for PBXNativeTarget "Pods-CryptoWalletTests" */;
+			buildPhases = (
+				1A39B9D1DFEB09CE377678004FC12E56 /* Headers */,
+				2352486F21A624E893BAB798E84A8073 /* Sources */,
+				E83AA4F5A6D33AA2249BD5EA228872B4 /* Frameworks */,
+				3C060CE1154E050D11EB9358D3AD900A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E2ADCB846E599C1B9425085449022B11 /* PBXTargetDependency */,
+			);
+			name = "Pods-CryptoWalletTests";
+			productName = "Pods-CryptoWalletTests";
+			productReference = 5BBF52C01271BF55E6ADB79F87DE204F /* Pods_CryptoWalletTests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		C8D021FE1891092D261504F2D5869D89 /* Pods-CryptoWallet-CryptoWalletUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5634B64FFAD29AD0F7247AC7ADED6230 /* Build configuration list for PBXNativeTarget "Pods-CryptoWallet-CryptoWalletUITests" */;
+			buildPhases = (
+				12F71AE25B20940FF08367675CAF4C9B /* Headers */,
+				A0B8F93AFB846915FA721705779686A4 /* Sources */,
+				A1377C1FEF80A4ECE743392052D6E4D9 /* Frameworks */,
+				25BDEAB9FD9CD7177F2A5680A9F08164 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-CryptoWallet-CryptoWalletUITests";
+			productName = "Pods-CryptoWallet-CryptoWalletUITests";
+			productReference = 8B61D350E6091843276E896EFCF28825 /* Pods_CryptoWallet_CryptoWalletUITests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		E3CDB365B7FD143E4B9A25B5214FCEDF /* Pods-CryptoWallet */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2C4935DB6159E8F190C03B4E4E107D62 /* Build configuration list for PBXNativeTarget "Pods-CryptoWallet" */;
+			buildPhases = (
+				EAB5AD6A49DA452C8368FEABE0CE19FF /* Headers */,
+				D385BC10D6099EC546B416423F278842 /* Sources */,
+				BCB85D68B54ED2D702A4790FD18C2A80 /* Frameworks */,
+				CA22965855CAD82DBFD38B8C9D098AB2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-CryptoWallet";
+			productName = "Pods-CryptoWallet";
+			productReference = 4E55BAE2EAD96AF7415188430E7B37DA /* Pods_CryptoWallet.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 058451D7D99EABAE24EE075F8E1D0C43 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E3CDB365B7FD143E4B9A25B5214FCEDF /* Pods-CryptoWallet */,
+				C8D021FE1891092D261504F2D5869D89 /* Pods-CryptoWallet-CryptoWalletUITests */,
+				63B1E76AB669EA236972893D1F5DF948 /* Pods-CryptoWalletTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		25BDEAB9FD9CD7177F2A5680A9F08164 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3C060CE1154E050D11EB9358D3AD900A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CA22965855CAD82DBFD38B8C9D098AB2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2352486F21A624E893BAB798E84A8073 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				432421D71A46DDF413BA8737AD8AF290 /* Pods-CryptoWalletTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A0B8F93AFB846915FA721705779686A4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				013C8B7604C9C222AAA7524F2098C731 /* Pods-CryptoWallet-CryptoWalletUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D385BC10D6099EC546B416423F278842 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE0EF2CEDF44FB4C43956A23B18C0FBA /* Pods-CryptoWallet-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E2ADCB846E599C1B9425085449022B11 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-CryptoWallet";
+			target = E3CDB365B7FD143E4B9A25B5214FCEDF /* Pods-CryptoWallet */;
+			targetProxy = 4B1FEBF8EEC2CBE79DECEEE4785CEDBC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		127BE225C9A6FC3D94DEA0EAD305C94E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D3D779A6E8B68D519ACD64F6B60540D3 /* Pods-CryptoWallet-CryptoWalletUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-CryptoWallet-CryptoWalletUITests/Pods-CryptoWallet-CryptoWalletUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-CryptoWallet-CryptoWalletUITests/Pods-CryptoWallet-CryptoWalletUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		2A4445482F50F45B0B1AD2C50293B4B3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 39ECFD6EE576E39A8C3ABB46632E7664 /* Pods-CryptoWalletTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-CryptoWalletTests/Pods-CryptoWalletTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-CryptoWalletTests/Pods-CryptoWalletTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		3848FA6260FFA9940A76E59CE3C5DED9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 37C0697A83177959FF938214C6B1F7FA /* Pods-CryptoWallet.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-CryptoWallet/Pods-CryptoWallet-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-CryptoWallet/Pods-CryptoWallet.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		91DA687377882EB1F264073476AF7D68 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1DC0797FB5467B95B9BFBA8C8F6474C8 /* Pods-CryptoWallet-CryptoWalletUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-CryptoWallet-CryptoWalletUITests/Pods-CryptoWallet-CryptoWalletUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-CryptoWallet-CryptoWalletUITests/Pods-CryptoWallet-CryptoWalletUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		BA769D926050FCFA888FCFEA82F8327E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AA1E524DF2BB267CE1793DC9FFBA0DBC /* Pods-CryptoWalletTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-CryptoWalletTests/Pods-CryptoWalletTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-CryptoWalletTests/Pods-CryptoWalletTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		BC01E0B73776AF6B58DC318A9BE988D7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		C605C363CC9F26F9FF97DBB1D5C6E25C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		CE904FFC02D8CB3D49F1D556500CB4C6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 843C404486E1FB3A318859E904014F72 /* Pods-CryptoWallet.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-CryptoWallet/Pods-CryptoWallet-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-CryptoWallet/Pods-CryptoWallet.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2C4935DB6159E8F190C03B4E4E107D62 /* Build configuration list for PBXNativeTarget "Pods-CryptoWallet" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3848FA6260FFA9940A76E59CE3C5DED9 /* Debug */,
+				CE904FFC02D8CB3D49F1D556500CB4C6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BC01E0B73776AF6B58DC318A9BE988D7 /* Debug */,
+				C605C363CC9F26F9FF97DBB1D5C6E25C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5634B64FFAD29AD0F7247AC7ADED6230 /* Build configuration list for PBXNativeTarget "Pods-CryptoWallet-CryptoWalletUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				91DA687377882EB1F264073476AF7D68 /* Debug */,
+				127BE225C9A6FC3D94DEA0EAD305C94E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		99B07DB9B2B6ACD10407DE9116D35BB3 /* Build configuration list for PBXNativeTarget "Pods-CryptoWalletTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BA769D926050FCFA888FCFEA82F8327E /* Debug */,
+				2A4445482F50F45B0B1AD2C50293B4B3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}
